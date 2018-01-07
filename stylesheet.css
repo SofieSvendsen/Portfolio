@@ -1,0 +1,276 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    background-color: #9b9692;
+}
+
+#content_box {
+    max-width: 1024px;
+    margin-top: 40px;
+    margin: 0 auto;
+}
+
+#portfolio a,
+#kontakt a {
+    color: darkgray;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Encode Sans Expanded', sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* **** menu **** */
+
+header {
+    position: fixed;
+    background: linear-gradient(to bottom, rgba(6, 0, 0, 0.77) 0%, rgba(0, 0, 0, 0) 100%);
+    width: 100vw;
+    padding: 1em;
+}
+
+header nav {
+    font-family: "ubuntu", sans-serif;
+    text-align: right;
+    margin: 0 2vw 0 0;
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+    padding-left: 25px;
+    display: block;
+}
+
+header nav a:hover {
+    color: darkgray;
+}
+
+@media screen and (min-width: 606px) {
+    header nav a {
+        display: inline-block;
+    }
+}
+
+.ikon img {
+    max-width: 50px;
+    border-radius: 50%
+}
+
+.ikon {
+    position: absolute;
+    left: 0;
+    margin-top: -23px;
+}
+
+
+/* **** menu slut**** */
+
+
+/* SPLASH START */
+
+#splash img {
+    width: 100vw;
+}
+
+
+/* SPLASH SLUT */
+
+
+/* **** KOMPETENCER START **** */
+
+#kompetencer .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #9b9692;
+}
+
+#kompetencer p {
+    margin: 0px 20px;
+    text-align: center;
+}
+
+#kompetencer .column {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 500px;
+    min-width: 240px;
+    margin: auto;
+}
+
+#kompetencer {
+    background-color: #9b9692;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+
+/* **** KOMPETENCER SLUT **** */
+
+
+/* **** PORTFOLIO START **** */
+
+#portfolio {
+    background-color: #6e6c6a;
+    padding-top: 40px;
+}
+
+#portfolio .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#portfolio .column {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+#portfolio .column_content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 35vw;
+    padding-bottom: 40px;
+}
+
+#portfolio .image {
+    order: 1;
+    margin: auto;
+}
+
+#portfolio .image img {
+    width: 100%;
+}
+
+#portfolio .txt_box {
+    text-align: center;
+    margin: 0 auto;
+    width: 400px;
+    justify-content: flex-start;
+}
+
+@media screen and (max-width: 500px) {
+    #portfolio .sectionwrapper {
+        display: block;
+    }
+    #portfolio .column_content img {
+        width: 400px;
+    }
+    #portfolio .column_content {
+        width: auto;
+    }
+}
+
+
+/* *** PORTFOLIO SLUT **** */
+
+
+/* OM MIG START */
+
+#om_mig p {
+    max-width: 70vw;
+    margin: auto;
+    text-align: justify;
+    padding: 40px 0px;
+}
+
+#mig img {
+    max-width: 20vw;
+    border-radius: 200px;
+    margin-top: 2vw;
+}
+
+#om_mig {
+    text-align: center;
+    background-color: #9b9692;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+
+/* ***** OM MIG SLUT ****/
+
+
+/* KONTAKT START */
+
+#kontakt p {
+    text-align: center;
+    margin: 0 40px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+#kontakt {
+    background-color: #6e6c6a;
+    padding-top: 30px;
+}
+
+.knapper {
+    text-align: center;
+    padding: 20px;
+    font-size: 3em;
+}
+
+
+/* KONTAKT SLUT */
+
+
+/* FOOTER START */
+
+#footer {
+    text-align: center;
+}
+
+
+/* FOOTER SLUT */
+
+
+/* KODE TAGET FRA W3SCHOOLS START */
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 40px;
+}
+
+#myBtn:hover {
+    background-color: #555;
+}
+
+
+/* KODE TAGET FRA W3SCHOOLS SLUT */
+
+
+/* TOP KNAP SLUT */
+
+@font-face {
+    font-family: 'sertig';
+    src: url('sertig-2-webfont.woff2') format('woff2'), url('sertig-2-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
